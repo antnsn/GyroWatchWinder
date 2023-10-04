@@ -1,20 +1,23 @@
-# 🚀 Improved Arduino code for Dual Gyrowatch winder from [Cults3D Project](https://cults3d.com/en/3d-model/gadget/dual-gyro-winder-watch-winder-remontoir-montre) 🚀
+# 🚀 Improved Arduino Code for Dual Gyro Watch Winder 🚀
 
-This repository contains a modified code to control stepper motors, tailored specifically for the [3D project available on Cults3D](https://cults3d.com/en/3d-model/gadget/dual-gyro-winder-watch-winder-remontoir-montre). Dive in to see the enhancements!
+This repository holds refined code designed to seamlessly control two stepper motors for the [Dual Gyro Watch Winder 3D project available on Cults3D](https://cults3d.com/en/3d-model/gadget/dual-gyro-winder-watch-winder-remontoir-montre). Experience enhanced functionality and precision!
 
 ## 🛠 Features 🛠
-- **Enhanced Motor Control:** Better responsiveness and precision for motor actions.
-- **LED Feedback:** LED blinks indicating motor states and operation modes.
-- **Intuitive Button Controls:** Manage different motor actions with ease.
-- **Pause Mechanism:** Adds an ability to automatically pause after a certain number of actions.
+
+- **Optimized Motor Functionality:** Enhanced gyroscopic movement for better watch winding.
+- **LED Indication:** Blinking LED provides feedback on system state and motor operations.
+- **Toggle Button Integration:** Customizable motor operations based on toggle switch states.
+- **Automated Run-Pause Cycle:** System runs for 10 minutes, pauses for 50, and resumes, without the need for manual intervention.
 
 ## 📜 Code Overview 📜
-The provided code uses the `Stepper.h` library for motor control. It includes:
-- Handling of two different buttons for motor directions.
-- LED blinking for feedback.
-- Different motor operation modes based on button inputs.
+
+Built upon the `Stepper.h` and `Timeout.h` libraries, this code offers:
+- Dual motor control, catering to individual and combined operations.
+- State-driven mechanism, transitioning between "RUN" and "PAUSE" states.
+- LED blink feedback throughout system operation.
+- Button-driven motor actions, accommodating both single and simultaneous motor rotations.
 
 ## 🔗 Original Project Link 🔗
-Check out the original 3D project on Cults3D for design and more details:
-[https://cults3d.com/en/3d-model/gadget/dual-gyro-winder-watch-winder-remontoir-montre](https://cults3d.com/en/3d-model/gadget/dual-gyro-winder-watch-winder-remontoir-montre)
 
+For design specifics, assembly, and other details, visit the original 3D project on Cults3D:
+[https://cults3d.com/en/3d-model/gadget/dual-gyro-winder-watch-winder-remontoir-montre](https://cults3d.com/en/3d-model/gadget/dual-gyro-winder-watch-winder-remontoir-montre)
