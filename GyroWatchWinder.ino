@@ -87,7 +87,7 @@ void pauseAndBlink() {
     counter++;
   } else {
     Serial.println("LONG PAUSE - 5 minutes");
-    delay(300000);
+    delay(3600000);  // Pause for 1 hour
     counter = 0;
   }
 }
