@@ -1,4 +1,4 @@
-# 🚀 Improved Arduino Code for Dual Gyro Watch Winder 🚀
+# 🚀 Improved Code for Dual Gyro Watch Winder 🚀
 
 This repository holds refined code designed to seamlessly control two stepper motors for the [Dual Gyro Watch Winder 3D project available on Cults3D](https://cults3d.com/en/3d-model/gadget/dual-gyro-winder-watch-winder-remontoir-montre). Experience enhanced functionality and precision!
 
